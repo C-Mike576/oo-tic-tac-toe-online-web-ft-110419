@@ -84,7 +84,7 @@ class TicTacToe
   
   def full?
     @board.each do |index|
-     return nil if index == ""
+     return nil if index == " "
     end
     true
   end
