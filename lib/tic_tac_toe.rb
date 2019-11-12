@@ -119,7 +119,7 @@ class TicTacToe
     end
     if won?
       if winner == "X"
-        puts
+        puts 
     elsif draw?
       puts "it's a draw"
     end
