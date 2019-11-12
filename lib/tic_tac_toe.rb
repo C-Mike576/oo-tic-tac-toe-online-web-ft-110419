@@ -112,5 +112,17 @@ class TicTacToe
       nil
     end
   end
+  
+  def play
+    until over?
+      turn
+    end
+    if won?
+      winner
+    elsif draw?
+      puts "it's a draw"
+    end
+  end
+  
 
 end
