@@ -118,7 +118,8 @@ class TicTacToe
       turn
     end
     if won?
-      winner
+      if winner == "X"
+        puts
     elsif draw?
       puts "it's a draw"
     end
