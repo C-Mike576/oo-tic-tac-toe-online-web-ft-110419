@@ -82,4 +82,12 @@ class TicTacToe
     false
   end  
   
+  def full?
+    @board.each do |index|
+      if index == ""
+        return false
+      end
+    end
+    true
+  end
 end
