@@ -106,10 +106,7 @@ class TicTacToe
   end
 
   def winner
-    if draw?
-      return nil
-    end
-    #@board[won?[0]]
+    @board[won?[0]] unless draw?
   end
 
 end
