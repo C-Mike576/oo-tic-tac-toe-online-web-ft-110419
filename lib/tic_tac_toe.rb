@@ -124,7 +124,7 @@ class TicTacToe
         puts "Congratulations O!"
       end
     elsif draw?
-      puts "it's a draw"
+      puts "Cat's Game!"
     end
   end
   
