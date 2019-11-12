@@ -105,5 +105,8 @@ class TicTacToe
     end
   end
 
+  def winner
+    @board[won?[0]]
+  end
 
 end
